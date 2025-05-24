@@ -2,6 +2,10 @@
 
 A premium shoe selling website built with React and Styled Components.
 
+## Live Demo
+
+Check out the live demo: [https://modernfootwears.netlify.app/](https://modernfootwears.netlify.app/)
+
 ## Features
 
 - Modern and responsive design
@@ -54,7 +58,11 @@ git push -u origin main
 7. Set build settings:
    - Build command: `npm run build`
    - Publish directory: `build`
-8. Click "Deploy site"
+8. Add redirect configuration in `public/_redirects`:
+   ```
+   /*    /index.html   200
+   ```
+9. Click "Deploy site"
 
 Your site will be live at a URL like: `https://your-site-name.netlify.app`
 
