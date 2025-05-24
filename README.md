@@ -47,24 +47,6 @@ git remote add origin <repository-url>
 git push -u origin main
 ```
 
-### Netlify Deployment
-
-1. Go to https://app.netlify.com/
-2. Sign up or log in to your account
-3. Click "New site from Git"
-4. Select "GitHub" as your Git provider
-5. Authorize Netlify to access your GitHub account
-6. Select your repository
-7. Set build settings:
-   - Build command: `npm run build`
-   - Publish directory: `build`
-8. Add redirect configuration in `public/_redirects`:
-   ```
-   /*    /index.html   200
-   ```
-9. Click "Deploy site"
-
-Your site will be live at a URL like: `https://your-site-name.netlify.app`
 
 ## Technologies Used
 
